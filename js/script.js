@@ -6,24 +6,22 @@ new	Swiper('.swiper-container',{
 	pagination:{
 		el:'.swiper-pagination',
 		clickable:true,
-
 	},
 	slidesPerView:4,
 	spaceBetween:111,
 	loop:true,
-autoplay:{
-	delay:3000,
-},
-breakpoints:{
+	autoplay:{
+		delay:3000,
+	},
+	breakpoints:{
 320:{
 	slidesPerView:1,
-},	
+	},	
 480:{
 	slidesPerView:3,
-},
+	},
 992:{
 	slidesPerView:4,
-}
-},
-
+	}
+	},
 });
