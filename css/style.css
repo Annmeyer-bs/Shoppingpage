@@ -57,10 +57,7 @@ body{
 background: #F6F6F6;
 align-items: center;
 }
-.container{
-	max-width: 1366px;
-	
-}
+
 /*--------Header------------*/
 header{
 display: flex;
@@ -130,8 +127,9 @@ nav{
 		background-color: white;
 	
 	}
-/*-------Body-------------*/
+/*-------Body---w-c---------*/
 .container__banner{
+	color: white;
 	height: 540px;
 	background:url(../img/banner.png) center	no-repeat;
 	width: 100%;
@@ -164,11 +162,12 @@ padding-left: 113px;
 height: 52px;
 	font-size: 20px;
 	mix-blend-mode: normal;
-opacity: 0.2;
+
 border: 2px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 16px;
 margin-top: 240px;
+color: #FFFFFF;
 }
 .container__form-temp{
 	margin-left: 113px;
@@ -182,22 +181,52 @@ margin-top: 240px;
 	height: 440px;
 	display: flex;
 	justify-content: space-between;
-
+	font-family: 'Playfair Display';
+font-style: normal;
+font-weight: normal;
 }
-
+.container__women-category	h2{
+	font-size: 34px;
+	line-height: 51px;
+}
+.container__women-category	h3{
+	font-size: 20px;
+}
+.container__women-category	button{
+	max-width: 96px;
+	height: 32px;
+	color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.2;
+border-radius: 8px;
+font-size: 14px;
+}
 .container__women-category-collection{
 	height: 100%;
-	width: 558px;
+	max-width: 558px;
+	width: 100%;
 background: url(../img/wc.png)center	no-repeat;
 mix-blend-mode: normal;
 border-radius: 16px;
+color: #FFFFFF;
 }
+.container__women-category-collection-text{
+	margin-top: 32px;
+	margin-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	line-height: 51px;
+letter-spacing: 0.4px;
+}
+
 .container__women-category-categ{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;	
 	height: 100%;
-	width: 558px;
+	max-width: 558px;
+	width: 100%;
 	}
 	.container__women-category-categ-gr{
 		display: flex;
@@ -206,22 +235,48 @@ border-radius: 16px;
 .container__women-category-categ-bestsel{
 background: #EFEFF4;
 height: 208px;
-width: 267px;
+max-width: 267px;
+width: 100%;
 border-radius: 16px;
 
+}
+.container__women-category-categ-bestsel-text{
+	padding: 94px	32px	33px	32px;
 }
 .container__women-category-categ-dress{
 	background: url(../img/dr.png)center	no-repeat;
 	height: 208px;
-width: 267px;
+max-width: 267px;
+width: 100%;
 border-radius: 16px;
-
+color: white;
+padding: 32px;
+}
+.container__women-category-categ-dress-text{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.container__women-category-categ	button{
+	max-width: 72px;
+height: 32px;
+	background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.2;
+border-radius: 8px;
+margin-bottom: 66px;
 }
 .container__women-category-categ-jacket{
+	color: white;
 	background: url(../img/dj.png)center	no-repeat;
-	width: 558px;
-height: 208px;
+	max-width: 558px;
+	width: 100%;
+max-height: 208px;
+height: 100%;
+padding: 32px;
+border-radius: 16px;
 }
+
 /*-------footer-------------*/
 footer{
 	display: flex;
@@ -260,7 +315,7 @@ height: 126px;
 	}
 	.container__footer	.header-block__logo,	p{
 		padding-bottom: 8px;
-font-family: Playfair Display;
+font-family: 'Playfair Display';
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -289,4 +344,48 @@ color: #8E8E93;
 }
 .social__wrapper{
 	align-items: center;
+}
+/*-------p-l-slider-------------*/
+
+.swiper-container{
+background: #FFFFFF;
+border-radius: 16px;
+padding: 24px	124px	60px	124px;
+}
+.swiper-wrapper{
+display: flex;
+align-items: center;
+margin: 30px;
+}
+.slider-image	{
+	height: 232px;
+	width: 172px;
+display: flex;
+flex-direction: column;
+	justify-content: space-around;
+}
+.slider-image	a{
+
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	/* identical to box height */
+
+	text-align: center;
+	
+	color: #1B2437;
+}
+
+	.slider-image-img{
+		width :156px;
+		height :127px;	
+		align-items: center;
+		
+		
+	}
+.swiper-button-prev:after,	.swiper-button-next:after{	
+color: #D1D1D6;
+font-size: 2px;
 }

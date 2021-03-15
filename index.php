@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<title>Document</title>
 </head>
 <body>
@@ -25,18 +26,10 @@ people’s fashion taste. </p>
 	</div>
 	<div class="container__form-temp">
 	
-	<div class="container__women-category">
-	<div class="container__women-category-collection"></div>
-	<div class="container__women-category-categ">
-		<div class="container__women-category-categ-gr">
-	<div class="container__women-category-categ-bestsel"></div>
-	<div class="container__women-category-categ-dress"></div></div>
-	<div class="container__women-category-categ-jacket"></div>
-	</div>
-	</div>
+	<?php	require	"block/w-c.php";	?>
 	
-	<div class="container__product-landacape">
-	</div>
+	<?php	require	"block/p-l.php";	?>
+
 	
 	<div class="containeer__you-may-like">
 	<div class="product__card"></div>
@@ -49,5 +42,7 @@ people’s fashion taste. </p>
 	</div>
 	<?php	require	"block/footer.php";	?>
 	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script	src="js/script.js"></script>
 </body>
 </html>
