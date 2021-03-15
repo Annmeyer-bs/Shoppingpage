@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 	<title>Document</title>
 </head>
-<body>
+<body>	
 <div class="container">
 	<?php	require	"block/header.php";	?>
 	<div class="container__form">
