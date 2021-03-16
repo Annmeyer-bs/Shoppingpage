@@ -25,3 +25,11 @@ new	Swiper('.swiper-container',{
 	}
 	},
 });
+$(document).ready(function(){
+	$('.slideyml').slick({
+		dots:true,
+		slidesToShow: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+	});
+  });

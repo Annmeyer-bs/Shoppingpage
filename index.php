@@ -24,17 +24,15 @@ people’s fashion taste. </p>
 		<div class="container__form-temp">
 			<?php	require	"block/w-c.php";	?>
 			<?php	require	"block/p-l.php";	?>
-			<div class="containeer__you-may-like">
-				<div class="product__card"></div>
-				<div class="product__card2"></div>
-				<div class="product__card3"></div>
-			</div>
+			<?php	require	"block/y-m-l.php";	?>
 		</div>
 	</div>
 	<?php	require	"block/footer.php";	?>
 </div>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script	src="js/script.js"></script>
 	<script src="https://kit.fontawesome.com/e552c67050.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script	src="js/script.js"></script>
 </body>
 </html>

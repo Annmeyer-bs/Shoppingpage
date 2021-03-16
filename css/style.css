@@ -141,7 +141,7 @@ nav{
 	position: absolute;
 	max-width :361px;
 	height:128px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display';
 	font-size: 48px;
 	color: #FFFFFF;
 }
@@ -157,9 +157,10 @@ nav{
 	height: 52px;
 	font-size: 20px;
 	mix-blend-mode: normal;
-	border: 2px solid #e2e0e0;
+	border: 2px solid;
 	box-sizing: border-box;
 	border-radius: 16px;
+	color: white;
 	margin-top: 240px;
 }
 .container__form-temp{
@@ -376,4 +377,74 @@ i{
 .swiper-button-prev:after,	.swiper-button-next:after{	
 	color: #D1D1D6;
 	font-size: 2px;
+}
+/*-------y-m-l-slider-------------*/
+.containeer__you-may-like{
+	position: relative;
+}
+.slideyml	.slick-arrow{
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	border: 2px solid #D1D1D6;
+	font-size: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+}
+.slideyml	.slick-arrow.slick-prev{
+	background: url(../img/arrow_btn.png)	0	0	no-repeat;
+	margin-right: 130px;
+}
+.slideyml	.slick-arrow.slick-next{
+	
+	background: url(../img/arrow_btn-n.png)0	0	no-repeat;
+}
+.slideyml	.slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 2%;
+	right: 4%;
+	
+}
+.slideyml	.slick-dots li{
+	list-style: none;
+	margin: 0	8px;
+}
+
+.slideyml	.slick-dots li.slick-active	button{
+	border: 1px solid #1B2437;
+}
+
+.slideyml	.slick-dots li button{
+	font-size: 0;
+	width: 8px;
+	height: 8px;
+	background: #1B2437;
+	border-radius: 8px;
+}
+.containeer__you-may-like	h2{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 45px;
+	letter-spacing: 0.4px;
+	color: #1B2437;
+}
+.product__card-text	p{
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E8E93;
+}
+.slick-track{
+	display: flex;
+}
+.slick-list {
+	overflow: hidden;
 }
