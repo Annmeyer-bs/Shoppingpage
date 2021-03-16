@@ -16,14 +16,14 @@
 			</div>
 			<div class="container__women-category-categ-dress">
 				<div class="container__women-category-categ-dress-text">
-					<button>New</button>
+				<button><a href="#"	class="btn"><span>New</span></a></button>
 					<h2>Dresses</h2>
 				</div>
 			</div>
 		</div>
 		<div class="container__women-category-categ-jacket">
 			<div class="container__women-category-categ-dress-text">
-				<button>New</button>
+				<button><span>New</span></button>
 				<h2>Denim Jackets</h2>
 			</div>
 		</div>
