@@ -156,9 +156,7 @@ nav{
 	width: 160px;
 	height: 52px;
 	font-size: 20px;
-	mix-blend-mode: normal;
-	border: 2px solid;
-	box-sizing: border-box;
+	border: 2px solid rgb(255 255 255 / 20%);
 	border-radius: 16px;
 	color: white;
 	margin-top: 240px;
@@ -253,11 +251,13 @@ letter-spacing: 0.4px;
 .container__women-category-categ	button{
 	max-width: 72px;
 	height: 32px;
-	background: #FFFFFF;
+	background:rgb(255 255 255 0.6);
 	mix-blend-mode: normal;
-	opacity: 0.2;
 	border-radius: 8px;
 	margin-bottom: 66px;
+}
+span{
+	color: white;
 }
 .container__women-category-categ-jacket{
 	color: white;
@@ -379,6 +379,15 @@ i{
 	font-size: 2px;
 }
 /*-------y-m-l-slider-------------*/
+.product__card{
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+.product__card-img{
+height: 280px;
+width: 364px;
+}
+
 .containeer__you-may-like{
 	position: relative;
 }
